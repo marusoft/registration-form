@@ -72,12 +72,12 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
   .form-title{
-    font-size: 1rem;
+    font-size: .7rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+  }
+  .button button{
+    width: 250px;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .button button{
-    width: 2500px;
-  }
-}
