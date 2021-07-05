@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif, monospace;
+}
+
+body {
+  background: #f9fbfd;
+}
+.container{
+  margin-top: 3rem;
+}
+.form-title {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+  color: #03a9f4;
+  letter-spacing: 0.3rem;
+}
+.form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 1rem;
+  padding: 1.2rem;
+}
+.form input {
+  outline: none;
+  padding: 0.4rem;
+  border: 1px solid #03a9f4;
+  font-size: 0.9rem;
+  border-radius: 5px;
+}
+.date {
+  width: 290px;
+}
+
+.button {
+  text-align: center;
+}
+
+.button button {
+  width: 320px;
+  padding: 0.3rem;
+  cursor: pointer;
+  color: #ffffff;
+  background: #03a9f4;
+  border: none;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.3rem;
+}
+.button span {
+  font-size: 1.3rem;
+}
+.state,
+.country,
+.gender {
+  width: 290px;
+  outline: none;
+  padding: 0.4rem;
+  border: 1px solid #03a9f4;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .form-title{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button button{
+    width: 2500px;
+  }
+}

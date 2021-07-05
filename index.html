@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="form-title">Register Your Details{Alimi}</h2>
+      <div class="form">
+        <input type="text" placeholder="Title e.g Mr, Mrs" />
+        <input type="text" placeholder="Enter your firstname" required />
+        <input type="text" placeholder="Enter your lastname" required />
+        <input type="tel" placeholder="Phone Number" required />
+        <input type="text" placeholder="Address" required />
+        <select class="gender">
+          <option>Gender</option>
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+        <select class="state">
+          <option>State</option>
+          <option>Lagos</option>
+          <option>Abuja</option>
+          <option>Kaduna</option>
+        </select>
+        <select class="country">
+          <option>Country</option>
+          <option>Brazil</option>
+          <option>America</option>
+          <option>China</option>
+        </select>
+
+        <input type="date" class="date" placeholder="Birth Date" required />
+      </div>
+      <div class="button">
+        <button><span class="las la-arrow-right"></span>Submit</button>
+      </div>
+    </div>
+  </body>
+</html>
